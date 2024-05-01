@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30/04/2024, 5:23:02 p. m.
+    Author     : USUARIO
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #185880;
+}
+
+header {
+    background-color: #CCCCCC;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 400px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #D88225;
+}
+
+.container h1 {
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+}
+
+form input:focus {
+    outline: none;
+    border-color: #333; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+form button:hover {
+    background-color: #555; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); 
+}
+
+footer {
+    background-color: #CCCC;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+.rights {
+    font-size: 14px;
+}
+
+.titulo2 {
+    color: #fff;
+    text-align: center; 
+    margin-top: 80px; 
+}
+
+.parrafo {
+    color: black; 
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.5; 
+    text-align: justify; 
+    padding: 20px; 
+    background-color: #D88225;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 50%;
+    margin: 10px auto; 
+    
+}
